@@ -1,0 +1,36 @@
+.nav {
+    background-color: rgb(242, 246, 255);
+}
+
+.nav__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.nav__difficulty {
+    display: flex;
+}
+
+.nav__item {
+    color: var(--main-blue);
+    font-weight: 600;
+    font-size: .8rem;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+
+.state {
+    font-size: .9rem;
+}
+
+.nav__item--selected {
+    background-color: var(--main-blue);
+    color: white;
+}
+
+.nav__item:hover {
+    background-color: var(--main-blue);
+    color: white;
+}

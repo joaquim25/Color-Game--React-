@@ -1,0 +1,26 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+:root {
+  --main-blue: rgb(58, 117, 172);
+}
+
+body {
+  height: 100vh;
+  background-color: rgb(34, 34, 34);
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+}
